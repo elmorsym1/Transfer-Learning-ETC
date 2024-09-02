@@ -11,21 +11,19 @@ The raw CT rock cores are obtained from the [Imperial Colloge London portal](htt
 
 The sub-volumes are simulated for Effective Thermal Conductivity using OpenFOAM and their results are summerized in the provided excel sheet having the following information,
 
- - Number of sub-samples = XXX
+ - Number of sub-samples = 40,041
  - Labels description:
     - casename = sub-sampling index per rock type sample
     - porosity = ratio of void fraction
-    - eff_porosity = the connected porosity
+    - esv = effective of soil volume fraction
     - rock_type = 
                    
                    {
+                   1:Berea Sandstone,
                    
-                   1:Bentheimer Sandstone,
+                   2:Bentheimer Sandstone,
                    
-                   2:Ketton Limestone,
-                   
-                   3:Berea Sandstone,
-                   
+                   3:Ketton Limestone,
                    }
                    
     - k = Effective Thermal Conductivity
