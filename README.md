@@ -19,11 +19,13 @@ The sub-volumes are simulated for Effective Thermal Conductivity using OpenFOAM 
     - rock_type = 
                    
                    {
+      
                    1:Berea Sandstone,
                    
                    2:Bentheimer Sandstone,
                    
                    3:Ketton Limestone,
+      
                    }
                    
     - k = Effective Thermal Conductivity
